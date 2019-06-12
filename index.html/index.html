@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Rock, Paper, Scissors Game</title>
 </head>
-<body>
+<body> 
+    <header>
+        <h1>Rock Paper Scissors Game</h1>
+    </header>
+
+    <div class="score-board">
+         <div id="user-tean" class="team">User</div>
+         <div id="computer-tean"  class="team">Computer</div>
+         <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="results">
+         <p>Paper covers Rock. You Win!</p>
+    </div>
     
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="../assets/images/rock.pdf" alt="">
+        </div>
+        <div class="choice" id="p">
+            <img src="../assets/images/paper.pdf" alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="../assets/images/scissors.pdf " alt="">
+        </div>
+    </div>
+
+    <p class="text">Player pick you weapon!</p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.1.5/firebase.js"></script>
 </body>
 </html>
