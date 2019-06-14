@@ -1,5 +1,5 @@
 var config = {
-    apiKey: "AIzaSyAbZ5NKuY7bqT_pgKxBGDzeNVKXZSA6jD0",
+    apiKey: "AAAAAEbxWnFc:APA91bHNxthwfnaTCVmLcwAH4Qwnrf3AZ5fIhAx2uLny1XMfkvk9C3pAQMEX5_pcMEHbuExTCeR1J2IqZG84ebemavzuOe6WAR6fkx3ZsAMsoKU8UH3Fdd34OYMR3GpM1EIbm2FIZtnK0",
     authDomain: "rps-multiplayer-b0940.firebaseapp.com",
     databaseURL: "https://rock-paper-scissors-multip.firebaseio.com",
     storageBucket: "rock-paper-scissors-multip.appspot.com",
